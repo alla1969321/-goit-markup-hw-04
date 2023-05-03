@@ -12,7 +12,8 @@
 h1,
 h2,
 h3,
-h4
+h4,
+p
 {margin-top: 0;
    margin-botton: 0;
 }
@@ -21,9 +22,7 @@ ul,ol{margin-top: 0;
    padding-left: 0;
    margin-bottom: 0px;
  }
- p, h1, h2, h3 {
-   margin: 0;
-   }
+ 
  img{
    display: block;
  }
@@ -224,6 +223,23 @@ margin:0 auto;
 
 margin-bottom: 48px;
 }
+.overlay{
+   max-width: 1600px;
+   height: 480px;
+   margin-left: auto;
+   margin-right: auto;
+   outline: 1px solid black;
+   background-image:linear-gradient(
+      to right, 
+      rgba(46, 47, 66, 0.7), 
+      rgba(46, 47, 66, 0.7)),
+      url(../images/people-office.jpg);
+ 
+   background-repeat:no-repeat ;
+   background-position: center;
+   background-size: cover;
+   
+}
 .modal-button{
    font-family: "Roboto", sans-serif; 
    letter-spacing: 0.04em ;
@@ -290,13 +306,31 @@ color: #2e2f42;}
 .section{
    padding: 120px 0 ; 
 }
-
-
+.about-list-item::before{
+   content: "";
+   
+   height: 120px;
+   display: block;
+   
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color:  #F4F4FD;
+}
+.icon-antena::before{
+   background-image:url(../images/antena.svg) ;
+}
+.icon-clock:before{
+   background-image:url(../images/clock.svg);}
+   .icon-diagram:before{
+      background-image:url(../images/diagram.svg);}
+      .icon-astronaut:before{
+         background-image:url(../images/astronaut.svg);} 
 .title-strategy{margin-top: 0;
    margin-bottom: 8px; 
 font-size: 20px;
 line-height: 1.2;
-
+font-weight: 500;
 letter-spacing: 0.02em;
 
 color: #2E2F42;
