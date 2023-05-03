@@ -602,13 +602,13 @@ border-radius:50%;
    display:block;
    width: 40px;
    height:40px ;
-   background-size: auto;
+ /*  background-size: auto;
 background-repeat: no-repeat;
 background-position:center;
 border-radius:50%;
    background-color: #fff;
-}
-.social-list_item-link-instagram{
+}*/
+/*.social-list_item-link-instagram{
    background-image: url(../images/instagram.svg);
 }
 
@@ -622,4 +622,4 @@ border-radius:50%;
 
 .social-list_item-link-linkedin{
    background-image: url(../images/linkedin.svg);
-}
+}*/
