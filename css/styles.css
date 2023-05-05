@@ -336,15 +336,16 @@ color: #2e2f42;}
    background-position: center;
    background-color:  #F4F4FD;
 }
-/*.icon-antena::before{
-   background-image:url(../images/defs.svg#antena) ;
-}
-.icon-clock:before{
+.antena::before{
+   background-image:url(../images/defs.svg#antena);}
+.clock:before{
    background-image:url(../images/defs.svg#clock);}
-   .icon-diagram:before{
+.diagram:before{
       background-image:url(../images/diagram.svg);}
-      .icon-astronaut:before{
-         background-image:url(../images/astronaut.svg);} */
+      .astronaut:before{
+         background-image:url(../images/astronaut.svg);}
+
+
 .title-strategy{margin-top: 0;
    margin-bottom: 8px; 
 font-size: 20px;
