@@ -576,9 +576,8 @@ color: #2e2f42;
    .section-title {background: #FFFFFF;}
    .section-title-description{
       width: calc((100% - 48px) / 3);
-      display: block;
-   }
-   . .section-title-description{
+         }
+    .section-title-description{
       display: block; 
    }
    .section-title-description:hover,
