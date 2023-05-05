@@ -619,13 +619,15 @@ border-radius:50%;
    display:flex;
    justify-content: center;
   gap: 10px;}
-
+  .social-list_item{
+   gap:24px;
+  }
 .social-list_item-link{
    justify-content: center; 
    display:block;
-   width: 44px;
-   height:44px;
-   gap:24px;
+   width: 40px;
+   height:40px;
+   
 }
  /*  background-size: auto;
 background-repeat: no-repeat;
