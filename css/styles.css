@@ -339,12 +339,12 @@ color: #2e2f42;}
 .icon-antena::before{
    background-image:url(../images/antena.svg) ;
 }
-.icon-clock:before{
+/*.icon-clock:before{
    background-image:url(../images/clock.svg);}
    .icon-diagram:before{
       background-image:url(../images/diagram.svg);}
       .icon-astronaut:before{
-         background-image:url(../images/astronaut.svg);} 
+         background-image:url(../images/astronaut.svg);} */
 .title-strategy{margin-top: 0;
    margin-bottom: 8px; 
 font-size: 20px;
