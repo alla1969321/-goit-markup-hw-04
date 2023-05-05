@@ -620,14 +620,18 @@ border-radius:50%;
    justify-content: center;
   gap: 10px;}
   .social-list_item{
-   
+   gap: 24px;
   }
 .social-list_item-link{
    justify-content: center; 
    display:block;
    width: 40px;
-   height:40px;
-   gap: 24px;
+   height:40px; 
+   background-color:#4d5ae5;
+   border-radius:50%;
+   display: flex;
+   align-items: center; 
+  /* gap: 24px;*/
 }
  /*  background-size: auto;
 background-repeat: no-repeat;
@@ -651,7 +655,10 @@ border-radius:50%;
    background-image: url(../images/linkedin.svg);
 }*/
 
-
+.social-list_item-link:hover,
+.social-list_item-link:focus{
+   background-color: #404bbf;
+}
 .social-company-list{
    display:flex;
    justify-content: center;  gap: 24px;}
