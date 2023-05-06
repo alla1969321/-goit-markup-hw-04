@@ -648,6 +648,10 @@ border-radius:50%;
   .social-list_item{
    gap: 24px;
   }
+  .social-list_item-link:hover,
+  .social-list_item-link:focus{
+
+  }
 .social-list_item-link{
    justify-content: center; 
    
@@ -695,10 +699,12 @@ background-position:center;
 .social-list_item-link:hover,
 .social-list_item-link:focus{
    background-color: #404bbf;
+   background-color: #31d0aa;
 }
 .social-company-list{
    display:flex;
-   justify-content: center;  gap: 24px;}
+   justify-content: center;
+   gap: 24px;}
   
   .company-list_item-link{
    justify-content: center; 
