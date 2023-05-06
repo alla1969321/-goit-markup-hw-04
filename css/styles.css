@@ -601,7 +601,7 @@ color: #2e2f42;
   }
 /* footer */
 .page-footer-container{
-   display: flex;
+   display: block;
    align-items: baseline;
    gap: 120px;
    margin: 0 auto;}
@@ -659,14 +659,13 @@ border-radius:50%;
    align-items: center; 
   /* gap: 24px;*/
 }
-media{
+.media{
 font-weight: 500 ;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 color:#FFFFFF ;
-
 }
 .social:{
    gap: 24px;
