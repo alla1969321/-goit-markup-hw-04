@@ -701,6 +701,7 @@ background-position:center;
  .company-list_item-link:hover,
  .company-list_item-link:focus{
    border-color: #404bbf;
+   color: #404bbf;
  }
 
 
