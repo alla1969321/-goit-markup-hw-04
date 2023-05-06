@@ -412,7 +412,9 @@ margin-bottom: 0;
  .feature-list .title {
         color: var(--title-text-color);
       }
-  
+  .lol{
+   fill: #f4f4fd ;
+  }
  .section-title-people{
    display: flex;
    flex-wrap: wrap;
