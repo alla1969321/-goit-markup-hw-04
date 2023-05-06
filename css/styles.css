@@ -601,7 +601,7 @@ color: #2e2f42;
   }
 /* footer */
 .page-footer-container{
-   display: block;
+   display: flex;
    align-items: baseline;
    gap: 120px;
    margin: 0 auto;}
