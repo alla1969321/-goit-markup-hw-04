@@ -325,7 +325,7 @@ color: #2e2f42;}
 .section{
    padding: 120px 0 ; 
 }
-.about-list-item::before{
+.about-list-item:{
    content: "";
    
    height: 120px;
@@ -335,7 +335,7 @@ color: #2e2f42;}
    background-repeat: no-repeat;
    background-position: center;
    background-color:  #F4F4FD;
-}
+}/*
 .antena::before{
    background-image:url(../images/defs.svg#antena);}
 .clock:before{
@@ -343,7 +343,7 @@ color: #2e2f42;}
 .diagram:before{
       background-image:url(../images/diagram.svg);}
       .astronaut:before{
-         background-image:url(../images/astronaut.svg);}
+         background-image:url(../images/astronaut.svg);}*/
 
 
 .title-strategy{margin-top: 0;
