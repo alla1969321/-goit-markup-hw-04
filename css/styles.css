@@ -694,7 +694,12 @@ background-position:center;
   }
   .company {padding: 120px 0;
   }
-  
+  .company-title{
+   font-size: 36px;
+   line-height: 1.1;
+   color: #2e2f42;
+   margin-bottom: 72px;
+  }
   .company_item{
    box-sizing: border-box;
    border: 1px solid #8e8f99;
