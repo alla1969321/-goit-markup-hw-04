@@ -412,6 +412,9 @@ margin-bottom: 0;
  .feature-list .title {
         color: var(--title-text-color);
       }
+      .lol-icon{
+         fill: #f4f4fd;
+      }
   .lol{
    fill: #f4f4fd ;
    /*fill: currentColor;*/
@@ -489,6 +492,9 @@ margin-bottom: 0 auto;
    margin-bottom: 16px;
    display: inline-block;
    
+   }
+   .logo-footer-container{
+      margin-right: 120px;
    }
 .footer{
 padding: 100px 0 ;
