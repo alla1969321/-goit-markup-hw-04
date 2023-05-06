@@ -235,11 +235,11 @@ margin-bottom: 48px;
 }
 .overlay{
    max-width: 1600px;
-   height: 480px;
+   /*height: 480px;*/
    margin-left: auto;
    margin-right: auto;
-   outline: 1px solid black;
-   /*background-image:linear-gradient(
+   /* outline: 1px solid black;
+  background-image:linear-gradient(
       to right, 
       rgba(46, 47, 66, 0.7), 
       rgba(46, 47, 66, 0.7)),
@@ -676,6 +676,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 color:#FFFFFF ;
+;
 }
 .social:{
    gap: 24px;
@@ -738,6 +739,9 @@ background-position:center;
    line-height: 1.1;
    color: #2e2f42;
    margin-bottom: 72px;
+   text-align: center;
+
+/*text-transform: capitalize;*/
   }
   .company_item{
    box-sizing: border-box;
