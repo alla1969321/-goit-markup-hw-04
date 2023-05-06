@@ -600,7 +600,11 @@ color: #2e2f42;
   text-align: left;
   }
 /* footer */
-.page-footer-container{margin: 0 auto;}
+.page-footer-container{
+   display: flex;
+   align-items: baseline;
+   gap: 120px;
+   margin: 0 auto;}
  
 .footer{
    background: #2E2F42;
@@ -654,6 +658,15 @@ border-radius:50%;
    display: flex;
    align-items: center; 
   /* gap: 24px;*/
+}
+media{
+font-weight: 500 ;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+color:#FFFFFF ;
+
 }
 .social:{
    gap: 24px;
