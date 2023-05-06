@@ -414,6 +414,7 @@ margin-bottom: 0;
       }
   .lol{
    fill: #f4f4fd ;
+   
   }
  .section-title-people{
    display: flex;
@@ -655,7 +656,7 @@ border-radius:50%;
  /*  background-size: auto;
 background-repeat: no-repeat;
 background-position:center;
-border-radius:50%;
+
    background-color: #fff;
 }*/
 /*.social-list_item-link-instagram{
@@ -684,7 +685,7 @@ border-radius:50%;
   
   .company-list_item-link{
    justify-content: center; 
-   display:block;
+   display:flex;
   /* width: 44px;
    height:44px;*/
   }
