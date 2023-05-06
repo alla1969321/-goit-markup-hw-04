@@ -689,9 +689,21 @@ background-position:center;
   .company-list_item-link{
    justify-content: center; 
    display:flex;
+   height: 100%;
+   width: 100%;
+   align-items: center; 
+   border-radius: 4px;
+   border: 1px solid #8e8f99;
+   color: #8e8f99;
   /* width: 44px;
    height:44px;*/
   }
+ .company-list_item-link:hover,
+ .company-list_item-link:focus{
+   border-color: #404bbf;
+ }
+
+
   .company {padding: 120px 0;
   }
   .company-title{
