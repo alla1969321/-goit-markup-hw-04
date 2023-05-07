@@ -765,3 +765,6 @@ background-position:center;
    width: 100%;
    height:100%;
   }
+  .social-list_item-link-footer:hover,
+.social-list_item-link-footer:focus{  
+  background-color: #31d0aa;}
