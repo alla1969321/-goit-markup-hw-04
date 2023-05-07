@@ -753,7 +753,9 @@ background-position:center;
    border-color: #404bbf;
    color: #404bbf;
  }
-
+.lol-icon{
+   fill: currentColor;  
+}
 
   .company {padding: 120px 0;
   }
