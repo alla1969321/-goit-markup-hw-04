@@ -770,10 +770,11 @@ background-position:center;
   .company_item:hover{
    border: 1px solid #404bbf;
   }
-  .social-list_item-link-company{
+  /*.social-list_item-link-company{
    width: 100%;
    height:100%;
-  }
+  }*/
   .social-list_item-link-footer:hover,
 .social-list_item-link-footer:focus{  
   background-color: #31d0aa;}
+  
