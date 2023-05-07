@@ -425,7 +425,7 @@ margin-bottom: 0;
    gap: 24px;
     justify-content:space-between; 
     }
-
+    
  .mark{
    gap: 24px;
 }
@@ -651,8 +651,9 @@ border-radius:50%;
    display:flex;
    justify-content: center;
   gap: 16px;}
-  social-list:hover,
-  social-lis:focus{background-color: #404bbf;}
+
+  .social-list:hover,
+  .social-lis:focus{background-color: #404bbf;}
   .social-list_item{
    gap: 24px;
   }
