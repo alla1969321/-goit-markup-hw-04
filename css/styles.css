@@ -666,14 +666,14 @@ border-radius:50%;
 
   
 
-  .social-list_item{
+  .social-list-item{
    gap: 24px;
   }
-  .social-list_item-link:hover,
-  .social-list_item-link:focus{
+  .social-list-item-link:hover,
+  .social-list-item-link:focus{
    background-color: #404bbf;
   }
-.social-list_item-link{
+.social-list-item-link{
    justify-content: center; 
    
    width: 40px;
