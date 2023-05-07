@@ -416,10 +416,11 @@ margin-bottom: 0;
          fill: #f4f4fd;
          
       }
-  .lol{
-   /*color: #f4f4fd ;*/
-   fill: currentColor; 
+  .lol{ fill: currentColor; 
+   color: #f4f4fd ;
+  
    }
+   . company-lol  { fill: currentColor;}
    /*fill: currentColor;*/
   
  .section-title-people{
