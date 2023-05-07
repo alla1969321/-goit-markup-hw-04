@@ -724,8 +724,8 @@ background-position:center;
    background-image: url(../images/linkedin.svg);
 }*/
 
-.social-list_item-link:hover,
-.social-list_item-link:focus{
+.social-list-item-link:hover,
+.social-list-item-link:focus{
    background-color: #404bbf;
   
 }
@@ -736,7 +736,7 @@ background-position:center;
    width: 100%;*/
    gap: 24px;}
   
-  .company-list_item-link{
+  .company-list-item-link{
    justify-content: center; 
    display:flex;
    height: 100%;
@@ -747,8 +747,8 @@ background-position:center;
    color: #8e8f99;
    /*height:44px;width::44px;*/
   }
- .company-list_item-link:hover,
- .company-list_item-link:focus{
+ .company-list-item-link:hover,
+ .company-list-item-link:focus{
    border-color: #404bbf;
    color: #404bbf;
  }
@@ -765,7 +765,7 @@ background-position:center;
 
 /*text-transform: capitalize;*/
   }
-  .company_item{
+  .company-item{
    box-sizing: border-box;
    border: 1px solid #8e8f99;
    border-radius: 4px;
@@ -774,14 +774,14 @@ background-position:center;
    padding:16px 32p ;
   }
 
-  .company_item:hover{
+  .company-item:hover{
    border: 1px solid #404bbf;
   }
  /*.social-list_item-link-company{
    width: 100%;
    height:100%;
   }*/
-  .social-list_item-link-footer:hover,
-.social-list_item-link-footer:focus{  
+  .social-list-item-link-footer:hover,
+.social-list-item-link-footer:focus{  
   background-color: #31d0aa;}
   
