@@ -550,7 +550,9 @@ border-radius: 4px;}
 
 .section-title-img{
   
-   display: block ;}
+   display: block ;
+width: 100%;
+height: 100%;}
 
    .section-title-img:hover,
    .section-title-img:focus{
