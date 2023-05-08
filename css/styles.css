@@ -733,8 +733,8 @@ text-align: center;
    height: 88px;
    padding:16px 32px;
   }
-
-  .company-item:hover{
+  .company-item:hover,
+  .company-item:focus{
    border: 1px solid #404bbf;
   }
  
