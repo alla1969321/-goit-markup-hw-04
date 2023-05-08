@@ -706,8 +706,9 @@ text-align: center;
    color: #8e8f99;
    
   }
- .social--list-item-link-company:hover,
- .social--list-item-link-company:focus {  border-color: #404bbf;
+  .company-list-item-link:hover,
+  .company-list-item-link:focus{ 
+    border-color: #404bbf;
    color: #404bbf;
  }
 
