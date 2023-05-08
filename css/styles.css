@@ -709,11 +709,11 @@ text-align: center;
   .company-list-item-link:hover,
   .company-list-item-link:focus{ 
     border-color: #404bbf;
-  
+    color: #404bbf;
  }
- .social-list-item-link-company:hover,
+ /*.social-list-item-link-company:hover,
  .social-list-item-link-company:focus{
- color: #404bbf;}
+ ;}*/
   .company {padding: 120px 0;
   }
   .company-title{
