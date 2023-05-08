@@ -435,10 +435,6 @@ margin-bottom: 0;
    flex-basis:calk((100%-72px)/4)
  }
 
- /* .mark:not(:nth-child(4n)){
-   margin-right: 24px;
- }*/
-  /*.mark:not(:nth-last-child(-n+4)) */
 
   .section-description{
  margin-top:0 px;
@@ -647,17 +643,7 @@ max-width: 264px;
 margin-right:0 ;
 margin-bottom: 8px;
 }
-/*link{
-   display:inlane-block;
-   height:40px;
-   width:40px;
-background-image:url(../images/....);
-background-color: red;
-background-size:20px;
-background-repeat: no-repeat;
-background-position:center;
-border-radius:50%;
-}*/
+
 .social-list{
    display:flex;
    justify-content: center;
@@ -696,32 +682,7 @@ text-align: center;
 .social{
    gap: 24px;
 }
-/*
-.social-list_item-link-company{
-   width: 100%;
-   height: 100%;}*/
 
- /*  background-size: auto;
-background-repeat: no-repeat;
-background-position:center;
-
-   background-color: #fff;
-}*/
-/*.social-list_item-link-instagram{
-   background-image: url(../images/instagram.svg);
-}
-
-.social-list_item-link-twitter{
-   background-image: url(../images/twitter.svg);
-}
-
-.social-list_item-link-facebook{
-   background-image: url(../images/facebook.svg);
-}
-
-.social-list_item-link-linkedin{
-   background-image: url(../images/linkedin.svg);
-}*/
 
 .social-list-item-link:hover,
 .social-list-item-link:focus{
@@ -731,8 +692,7 @@ background-position:center;
 .social-company-list{
    display:flex;
    justify-content: center;
-  /* height: 100%;
-   width: 100%;*/
+  
    gap: 24px;}
   
   .company-list-item-link{
@@ -762,24 +722,21 @@ background-position:center;
    margin-bottom: 72px;
    text-align: center;
 
-/*text-transform: capitalize;*/
+
   }
   .company-item{
    box-sizing: border-box;
    border: 1px solid #8e8f99;
    border-radius: 4px;
-   width: 168px;
-   height: 88px;
+  /* width: 168px;
+   height: 88px;*/
    padding:16px 32px;
   }
 
   .company-item:hover{
    border: 1px solid #404bbf;
   }
- /*.social-list_item-link-company{
-   width: 100%;
-   height:100%;
-  }*/
+ 
   .social-list-item-link-footer:hover,
 .social-list-item-link-footer:focus{  
   background-color: #31d0aa;}
