@@ -707,7 +707,7 @@ text-align: center;
    
   }
  .social--list-item-link-company:hover,
- .company-list-item-link:focus {  border-color: #404bbf;
+ .social--list-item-link-company:focus {  border-color: #404bbf;
    color: #404bbf;
  }
 
