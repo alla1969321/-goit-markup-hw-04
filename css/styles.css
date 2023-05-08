@@ -742,9 +742,9 @@ background-position:center;
    width: 100%;
    align-items: center; 
    border-radius: 4px;
-   border: 1px solid #8e8f99;
+   
    color: #8e8f99;
-   /*height:44px;width::44px;*/
+   
   }
  .company-list-item-link:hover,
  .company-list-item-link:focus{
@@ -770,7 +770,7 @@ background-position:center;
    border-radius: 4px;
    width: 168px;
    height: 88px;
-   padding:16px 32p ;
+   padding:16px 32px;
   }
 
   .company-item:hover{
