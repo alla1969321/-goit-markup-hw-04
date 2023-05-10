@@ -225,13 +225,14 @@ max-width: 496px;
 font-weight: 700;
 Font-size:56px;
 Line-height:1.07;
-
+margin: auto;
 letter-spacing: 0.02em;
 /*text-align: auto;*/
 color: #FFFFFF;
 margin:0 auto;
-
+max-width: 496px;
 margin-bottom: 48px;
+
 }
 .overlay{
    max-width: 1600px;
@@ -262,7 +263,7 @@ margin-bottom: 48px;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
-   align-items: center;
+  /* align-items: center;*/
    text-align: center;
    display:block;
    min-width: 169px;
@@ -271,8 +272,10 @@ margin-bottom: 48px;
    border-radius: 4px;
     color:#FFFFFF;
     cursor:pointer;
-    margin:0 auto;}
-
+    margin:0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   }
+   
 
 /*--section-two-- */
 .icon{
@@ -437,7 +440,7 @@ margin-bottom: 0;
 
 
   .section-description{
- margin-top:0 px;
+ /*margin-top:0 px;*/
 line-height: 1.5;
 letter-spacing: 0.02em;
 
@@ -616,7 +619,7 @@ color: #2e2f42;
 .page-footer-container{
    display: flex;
    align-items: baseline;
-   gap: 120px;
+   /*gap: 120px;*/
    margin: 0 auto;}
  
 .footer{
@@ -641,7 +644,7 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 max-width: 264px;
 margin-right:0 ;
-margin-bottom: 8px;
+/*margin-bottom: 8px;*/
 }
 
 .social-list{
@@ -676,7 +679,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 color:#FFFFFF ;
-text-align: center;
+/*text-align: center;*/
 }
 
 .social{
@@ -704,12 +707,11 @@ text-align: center;
    border-radius: 4px;
  border: 1px solid #8e8f99;
    color: #8e8f99;
-   
-  }
+     }
   .company-list-item-link:hover,
   .company-list-item-link:focus{ 
-    border-color: #404bbf;
-    color: #404bbf;
+    border-color:#404bbf;
+    color:#404bbf;
  }
  /*.social-list-item-link-company:hover,
  .social-list-item-link-company:focus{
@@ -733,10 +735,10 @@ text-align: center;
    height: 88px;
   /* padding:16px 32px;*/
   }
-  .company-item:hover,
+ /* .company-item:hover,
   .company-item:focus{
-   border: 1px solid #404bbf;
-  }
+   border: 1px solid #404bbf;*/
+  
  
   .social-list-item-link-footer:hover,
 .social-list-item-link-footer:focus{  
