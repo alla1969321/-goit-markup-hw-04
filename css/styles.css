@@ -75,7 +75,7 @@ ul,ol{margin-top: 0;
    align-items: center;
    margin-right: auto;
    gap:40px;
-   /*padding-top: 24px;*/
+   
   }
   
 .navigation-link
@@ -165,7 +165,7 @@ color: #2E2F42;
 }
 .adress-link{
          font-style: normal;
-       /*gap: 40px;*/
+       
          font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -173,10 +173,7 @@ color: #2E2F42;
              color: #434455;
         text-decoration: none;
       }
-     /* .adress-link:hover,
-      .adress-link:focus {
-      color: #404BBF;
-      }*/
+     
 
 .span-one{
    
@@ -235,20 +232,9 @@ margin-bottom: 48px;
 
 }
 .overlay{
-   /*max-width: 1600px;*/
-   /*height: 480px;*/
+  
    margin-left: auto;
    margin-right: auto;
-   /* outline: 1px solid black;
-  background-image:linear-gradient(
-      to right, 
-      rgba(46, 47, 66, 0.7), 
-      rgba(46, 47, 66, 0.7)),
-      url(../images/people-office.jpg);*/
- 
-  /* background-repeat:no-repeat ;
-   background-position: center;
-   background-size: cover;*/
    
 }
 .modal-button{
@@ -338,15 +324,7 @@ color: #2e2f42;}
    background-repeat: no-repeat;
    background-position: center;
    background-color:  #F4F4FD;
-}/*
-.antena::before{
-   background-image:url(../images/defs.svg#antena);}
-.clock:before{
-   background-image:url(../images/defs.svg#clock);}
-.diagram:before{
-      background-image:url(../images/diagram.svg);}
-      .astronaut:before{
-         background-image:url(../images/astronaut.svg);}*/
+}
 
 
 .title-strategy{margin-top: 0;
@@ -467,7 +445,7 @@ margin-bottom: 0 auto;
   
  .profession{
    margin-top: 0;
-   
+   margin-bottom: 8px;
    text-align: center;
        font-size: 16px;
     line-height: 1.5;
@@ -553,13 +531,10 @@ border-radius: 4px;}
   
    display: block ;
 
-/*fill: currentColor;*/
+
 }
 
-  /* .section-title-img:hover,
-   .section-title-img:focus{
-   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12)
-}*/
+  
  
 .description
 {margin-top: 0;
@@ -648,7 +623,7 @@ margin-right:0 ;
 
 .social-list{
    display:flex;
-   justify-content: center;
+   /*justify-content: center;*/
   gap: 16px;}
 
   
@@ -712,9 +687,7 @@ color:#FFFFFF ;
     border-color:#404bbf;
     color:#404bbf;
  }
- /*.social-list-item-link-company:hover,
- .social-list-item-link-company:focus{
- ;}*/
+ 
   .company {padding: 120px 0;
   }
   .company-title{
